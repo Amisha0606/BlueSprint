@@ -22,7 +22,7 @@
 .nav .corner {
   display: flex;
   justify-content: space-between;
-  width: 15%;
+  width: 25%;
 }
 
 .container {
@@ -30,12 +30,13 @@
 }
 .container .sidebar {
   background-color: grey;
+  color: white;
   max-width: 10%;
   min-height: 100vh;
   padding-top: 2rem;
 }
 .container .sidebar h3 {
-  padding: 2rem;
+  padding: 1.5rem 1rem;
 }
 .container .blog-container {
   background-color: brown;

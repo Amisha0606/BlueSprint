@@ -1,0 +1,31 @@
+//font for logo
+$h1: 'Helvetica Neue', sans-serif;
+//font for headings
+$h3: 'Helvetica Neue', sans-serif;
+//font for content
+$p: 'helvetica ad', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    p{
+        font-family: $p;
+    }
+    h3{
+        font-family: $h3;
+    }
+    //sub-headings
+    h4{
+        font-family: $h3;
+    }
+}
+
+.container{
+    padding: 2rem 5rem;
+
+    .community-vc{
+    }
+    .group-vc{}
+}

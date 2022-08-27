@@ -11,7 +11,7 @@ $p: 'helvetica ad', sans-serif;
 $NavBg: black;
 $NavClr: white;
 $sidebarBg: grey;
-// $sidebarClr
+$sidebarClr: white;
 $blogBg: brown;
 // $blogClr
 
@@ -40,7 +40,7 @@ $blogBg: brown;
     .corner{
         display: flex;
         justify-content: space-between;
-        width: 15%;
+        width: 25%;
     }
 }
 
@@ -49,11 +49,12 @@ $blogBg: brown;
 
     .sidebar{
         background-color: $sidebarBg;
+        color: $sidebarClr;
         max-width: 10%;
         min-height: 100vh;
         padding-top: 2rem;
         h3{
-            padding: 2rem;
+            padding: 1.5rem 1rem;
         }
     }
 
