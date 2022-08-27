@@ -22,7 +22,7 @@
 .nav .corner {
   display: flex;
   justify-content: space-between;
-  width: 25%;
+  width: 30%;
 }
 
 .container {
@@ -30,15 +30,45 @@
 }
 .container .sidebar {
   background-color: grey;
-  color: white;
-  max-width: 10%;
+  color: black;
   min-height: 100vh;
   padding-top: 2rem;
 }
 .container .sidebar h3 {
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
 }
-.container .blog-container {
+.container .side-container {
   background-color: brown;
   flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+.container .side-container .question-poll {
+  width: 60%;
+}
+.container .side-container .question-poll textarea {
+  height: 6rem;
+  background-color: lightblue;
+  min-width: 100%;
+}
+.container .side-container .question-poll .post {
+  font-size: 1rem;
+  padding: 0.3rem 1.3rem;
+  margin-left: 45rem;
+}
+.container .side-container .blog {
+  border: 1 px solid black;
+  padding: 1.5rem;
+}
+
+.chatbot {
+  position: fixed;
+  left: 78rem;
+  bottom: 2rem;
+  background-color: rgb(112, 95, 95);
+  width: 12rem;
+  padding: 1rem;
+  border-radius: 50% 20%/10% 40%;
 }/*# sourceMappingURL=index.css.map */

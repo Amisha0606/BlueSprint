@@ -22,10 +22,23 @@ $p: 'helvetica ad', sans-serif;
     }
 }
 
-.container{
-    padding: 2rem 5rem;
+h3{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    
+}
 
-    .community-vc{
+.container{
+    padding: 4rem 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .community-vc{}
+    .group-vc{
+        padding-top: 4rem;
     }
-    .group-vc{}
+    .own-vc{
+        padding-top: 4rem;
+    }
 }
