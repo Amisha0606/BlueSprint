@@ -10,12 +10,17 @@
   font-family: "Helvetica Neue", sans-serif;
 }
 
+body{
+  background-color: #B9FFF8;
+
+}
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: black;
-  color: white;
+  background-color: #B9FFF8;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  color: #FF4A4A;
   align-items: center;
   padding: 1.2rem 2rem;
 }
@@ -27,9 +32,12 @@
 
 .container {
   display: flex;
+  position:absolute;
+  width: 70%;
+  left:10%;
+  margin: 3vh;
 }
 .container .sidebar {
-  background-color: grey;
   color: black;
   min-height: 100vh;
   padding-top: 2rem;
@@ -37,30 +45,46 @@
 .container .sidebar h3 {
   padding: 1.5rem 2rem;
 }
-.container .side-container {
-  background-color: brown;
+.container .mid-container {
+  border-left: black solid;
+  border-right: black solid;
   flex: 1;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-top: 1rem;
 }
-.container .side-container .question-poll {
-  width: 60%;
+.container .mid-container .question-poll {
+  width: 90%;
 }
-.container .side-container .question-poll textarea {
-  height: 6rem;
-  background-color: lightblue;
+.container .mid-container .question-poll textarea {
+  height: 7rem;
+  background-color: #FF4A4A;
   min-width: 100%;
 }
-.container .side-container .question-poll .post {
+.container .mid-container .question-poll .post {
   font-size: 1rem;
   padding: 0.3rem 1.3rem;
-  margin-left: 45rem;
+  margin-left: 43rem;
 }
-.container .side-container .blog {
+.container .mid-container .blog {
   border: 1 px solid black;
   padding: 1.5rem;
+}
+
+
+.dilemma{
+  width: 100%;
+  margin: 4vh;
+  padding: 4vh;
+  border-bottom: black solid;
+  /* border-radius: 20px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1); */
+  /* background-color: #6FEDD6; */
+}
+.help{
+  position: relative;
+  top: 90%;
 }
 
 .chatbot {
