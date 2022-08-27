@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* p {
+  font-family: "helvetica ad", sans-serif;
+}
+* h3 {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 1.2rem 2rem;
+}
+.nav .corner {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.container {
+  display: flex;
+}
+.container .sidebar {
+  background-color: grey;
+  max-width: 10%;
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+.container .sidebar h3 {
+  padding: 2rem;
+}
+.container .blog-container {
+  background-color: brown;
+  flex: 1;
+}/*# sourceMappingURL=index.css.map */
