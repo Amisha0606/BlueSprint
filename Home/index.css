@@ -94,7 +94,18 @@ body{
   height: 7rem;
   background-color: #FF4A4A;
   min-width: 95%;
+  position: relative;
+  top: 15px;
+  border-radius: 10px;
 }
+
+::placeholder {
+  font-family: 'Sacramento', cursive;
+  font-size: xx-large;
+  color: purple;
+  padding: 5px;
+}
+
 .container .mid-container .question-poll .post {
   font-size: 1rem;
   padding: 0.3rem 1.3rem;
