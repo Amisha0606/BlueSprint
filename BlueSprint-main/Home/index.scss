@@ -1,0 +1,98 @@
+//font for logo
+$h1: "Helvetica Neue", sans-serif;
+//font for headings
+$h3: "Helvetica Neue", sans-serif;
+//font for content
+$p: "helvetica ad", sans-serif;
+
+// $logoClr
+$NavBg: black;
+$NavClr: white;
+$sidebarBg: grey;
+$sidebarClr: black;
+$blogBg: brown;
+// $blogClr
+$chatbotBg: rgb(112, 95, 95);
+// $chatbotClr
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    p {
+        font-family: $p;
+    }
+    h3 {
+        font-family: $h3;
+    }
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $NavBg;
+    color: $NavClr;
+    align-items: center;
+    padding: 1.2rem 2rem;
+
+    .corner {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+    }
+}
+
+.container {
+    display: flex;
+
+    .sidebar {
+        background-color: $sidebarBg;
+        color: $sidebarClr;
+        // max-width: 10%;
+        min-height: 100vh;
+        padding-top: 2rem;
+        h3 {
+            padding: 1.5rem 2rem;
+        }
+    }
+
+    .side-container {
+        background-color: $blogBg;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1rem;
+
+        .question-poll{
+            width: 60%;
+            textarea{
+                height: 6rem;
+                background-color: lightblue;
+                min-width: 100%;
+            }
+            .post{
+                font-size: 1rem;
+                padding: 0.3rem 1.3rem;
+                margin-left: 45rem;
+            }
+        }
+
+        .blog {
+            border: 1 px solid black;
+            padding: 1.5rem;
+        }
+    }
+}
+
+.chatbot {
+    position: fixed;
+    left: 78rem;
+    bottom: 2rem;
+    background-color: $chatbotBg;
+    width: 12rem;
+    padding: 1rem;
+    border-radius: 50% 20% / 10% 40%;
+}
