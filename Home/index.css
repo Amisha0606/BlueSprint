@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Inter:wght@300;500;700&family=Poppins:wght@300;400;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +9,15 @@
 * p {
   font-family: "helvetica ad", sans-serif;
 }
-* h3 {
-  font-family: "Helvetica Neue", sans-serif;
+/* * h3 {
+  font-family: "helvetica ad", sans-serif;
+} */
+h4{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  position: relative;
+  top: -2vh;
 }
-
 body{
   background-color: #B9FFF8;
 
@@ -41,15 +49,31 @@ body{
   color: black;
   min-height: 100vh;
   padding-top: 2rem;
+
 }
 .container .sidebar h3 {
   padding: 1.5rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #FF4A4A;
 }
+
+.container .sidebar a {
+  text-decoration: none;
+  color: #FF4A4A;
+
+}
+
+.container .sidebar a:hover {
+  text-decoration: underline;
+}
+
 .container .mid-container {
-  border-left: black solid;
-  border-right: black solid;
+  /* border-left: black solid;
+  border-right: black solid; */
   flex: 1;
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 1rem;
@@ -60,12 +84,13 @@ body{
 .container .mid-container .question-poll textarea {
   height: 7rem;
   background-color: #FF4A4A;
-  min-width: 100%;
+  min-width: 95%;
 }
 .container .mid-container .question-poll .post {
   font-size: 1rem;
   padding: 0.3rem 1.3rem;
-  margin-left: 43rem;
+  margin-top: 10px;
+  margin-left: 37.2rem;
 }
 .container .mid-container .blog {
   border: 1 px solid black;
@@ -73,11 +98,24 @@ body{
 }
 
 
+.dilemma-box{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 4.5%;
+  
+}
 .dilemma{
-  width: 100%;
+  width: 80%;
   margin: 4vh;
   padding: 4vh;
   border-bottom: black solid;
+  border-radius: 20px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FF9551;
   /* border-radius: 20px;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1); */
   /* background-color: #6FEDD6; */
@@ -85,6 +123,23 @@ body{
 .help{
   position: relative;
   top: 90%;
+}
+
+.question{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  padding-bottom: 1vh;
+}
+
+.ques{
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+}
+
+.help_me{
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
 }
 
 .chatbot {
